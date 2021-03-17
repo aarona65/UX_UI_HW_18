@@ -1,0 +1,120 @@
+.myWork{
+    display:flex;
+    height: 1200px;
+    width: 100%;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: azure;
+}
+
+.firstCase{
+    margin-top: 10px;
+    height: 600%;
+    width: 100%;
+    background-image: url("../hw18/images/dinner-image.jpeg")
+}
+.secondCase{
+    margin-top: 30px;
+    height: 600%;
+    width: 100%;
+    background-image: url("../hw18/images/plane2.jpeg");
+}
+
+.thirdCase{
+    margin-top: 30px;
+    height: 600%;
+    width: 100%;
+    background-image: url("../hw18/images/dog.jpeg");
+}
+
+.firstCase .info{
+    margin-top: 100px;
+    color: white;
+}
+
+
+.secondCase .info{
+    margin-top: 100px;
+    color:black;
+}
+
+.thirdCase .info{
+    margin-top: 100px;
+    color:white;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+.firstButton{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 50px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.firstButton button{
+    font-size: 20px;
+    padding: 10px;
+    
+}
+
+.secondButton{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 50px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.secondButton button{
+    font-size: 20px;
+    padding: 10px;
+    
+}
+
+.thirdButton{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 50px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.thirdButton button{
+    font-size: 20px;
+    padding: 10px;
+    
+}
+
+.more{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display:flex;
+    justify-content: center;
+}
+
+.more button{
+    font-size: 30px;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 600px){
+    .firstCase .secondCase .thirdCase{
+        background-image: 600px;
+    }
+}
+
